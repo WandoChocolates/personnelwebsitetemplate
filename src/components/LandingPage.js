@@ -5,6 +5,12 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 
+import CopyrightIcon from '@material-ui/icons/Copyright';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -52,8 +58,25 @@ export default function LandingPage() {
         </AppBar>
       </div>
       <div className="rectangle-2" ></div>
+      <div className="blog-area" ></div>
+      <div className="projects-area" ></div>
       <div className="rectangle-7" ></div>
-      <div className="footer"></div>
+      <div className="contactme" ></div>
+      <div className="footer">
+          <Typography className={classes.title}>
+            <CopyrightIcon />
+            All Rights Reserved
+          </Typography>
+          <Typography className={classes.title}>
+            VALAR DOHAERIS
+          </Typography>
+          <div className={classes.title}>
+            <FacebookIcon />
+            <TwitterIcon />
+            <InstagramIcon />
+            <LinkedInIcon/>
+          </div>
+      </div>
     </div>
   );
 }
