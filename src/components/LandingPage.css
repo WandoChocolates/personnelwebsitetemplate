@@ -1,11 +1,15 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
 .rectangle-2 {
   position: absolute;
-width: 100%;
-height: 75%;
-left: 0px;
-top: 59px;
+  width: 100%;
+  height: 75%;
+  top: 59px;
 
-background: #FFB800;
+  background: #FFB800;
 }
 
 .rectangle-7 {
@@ -19,15 +23,37 @@ background: #FFB800;
   transform: rotate(30.33deg);
 }
 
-.rectangle-7 {
+.rectangle-22 {
   position: absolute;
-  width: 210px;
-  height: 194px;
-  left: -60.04px;
-  top: 500px;
+  width: 2143px;
+  height: 167.31px;
+  left: -154.22px;
+  top: 4188.27px;
+  z-index: 1;
 
-  background: #000000;
-  transform: rotate(30.33deg);
+  background: #FFB800;
+  transform: rotate(-5deg);
+
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.contactme {
+  position: absolute;
+  width: 100%;
+  height: 1766px;
+  top: 4175px;
+
+  background: #2A2A2A;
 }
 
 .footer {

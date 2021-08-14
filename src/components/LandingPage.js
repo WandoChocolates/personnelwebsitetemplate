@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
 export default function LandingPage() {
   const classes = useStyles();
 
@@ -57,10 +58,13 @@ export default function LandingPage() {
           </Typography>
         </AppBar>
       </div>
-      <div className="rectangle-2" ></div>
+      <div className="rectangle-2" ></div> 
       <div className="blog-area" ></div>
       <div className="projects-area" ></div>
       <div className="rectangle-7" ></div>
+      <div className="rectangle-22" >
+        CONTACT ME
+      </div>
       <div className="contactme" ></div>
       <div className="footer">
           <Typography className={classes.title}>
