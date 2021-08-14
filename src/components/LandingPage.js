@@ -58,10 +58,18 @@ export default function LandingPage() {
           </Typography>
         </AppBar>
       </div>
-      <div className="rectangle-2" ></div> 
-      <div className="blog-area" ></div>
-      <div className="projects-area" ></div>
+      <div className="rectangle-2" ></div>
+
       <div className="rectangle-7" ></div>
+      <div className="rectangle-8" ></div>
+
+      <div className="blog-area" >
+        <div className="mywords" ></div>
+        <div className="blog" ></div>
+      </div>
+      <div className="projects-area" >
+      </div>
+
       <div className="rectangle-22" >
         CONTACT ME
       </div>
