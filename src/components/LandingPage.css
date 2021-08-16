@@ -45,6 +45,12 @@ body {
   background: #39cc26;
 }
 
+.grid-group12 {
+  position: absolute;
+  width: 100%;
+  top: 1265px;
+}
+
 .rectangle-22 {
   position: absolute;
   width: 1524px;
