@@ -178,8 +178,8 @@ export default function LandingPage() {
             <ImageList
               sx={{ width: 500, height: 450 }}
               variant="quilted"
-              cols={4}
-              rowHeight={121}
+              cols={3}
+              rowHeight={210}
             >
               {itemData.map((item) => (
                 <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
